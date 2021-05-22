@@ -9,7 +9,7 @@ p = []
 j = 1
 
 for i in range(10):
-    test = 'Process :'
+    test = 'Process : '
     for ch in test:
         p.append(th.Thread(target=proc, name="t1", args=[i,ch], daemon=True))
         j+=1
