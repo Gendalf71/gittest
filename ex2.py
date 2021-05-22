@@ -1,6 +1,6 @@
 import threading
  
-total = 30 
+total = 50 
 
 def update_total(amount):
     global total
